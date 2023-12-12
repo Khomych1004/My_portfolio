@@ -1,3 +1,8 @@
+:root {
+  --inactive-color:rgb(152, 203, 206);
+  --active-color:rgb(124, 168, 170);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -30,34 +35,27 @@ header {
 }
 
 h1 {
-  background-color: rgb(152, 203, 206);
+  background-color: var(--inactive-color);
   padding-left: 50px;
   padding-right: 10px;
   margin: 10px 0px;
 }
 
 header a {
-  color: rgb(152, 203, 206);
+  color: var(--inactive-color);
   font-size: larger;
   text-decoration: none;
-  border-bottom: 3px solid rgb(152, 203, 206);
+  border-bottom: 3px solid var(--inactive-color);
   padding: 8px 10px;
   margin-right: 5px;
 }
 
 header a:hover {
-  color: rgb(124, 168, 170);
-  border-color: rgb(124, 168, 170);
+  color: var(--active-color);
+  border-color: var(--active-color);
  }
 
 nav {
   margin-right: 50px;
 }
 
-/*
-.page-wrapper h2 {
-color:rgb(74, 86, 115);
-border-right: 10px;
-border-color: aqua;
-}
-*/
