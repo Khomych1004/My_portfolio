@@ -203,6 +203,86 @@ main {
 /* Стили для шрифта на маленьких экранах */
 @media screen and (max-width: 480px) {
 
+  .hero-banner div {
+    justify-content:center;
+  }
+  
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding-bottom: 15px;
+
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+  }
+
+  nav {
+    font-size: 15px;
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  .page-wrapper {
+    margin: 0px 20px;
+  }
+
+  #about,
+  #work,
+  #contact {
+    flex-direction: column;
+  }
+
+  #about h2,
+  #work h2,
+  #contact h2 {
+    max-width:none;
+    min-width:auto;
+    text-align: left;
+    border-right: none;
+    border-bottom: 3px solid var(--h-color);
+    margin-right: 0;
+    padding-right: 0;
+    font-size: 50px;
+  }
+
+  .page-section-work-bloks {
+    height: 800px;
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas:
+    "SurfReport"
+    "LEDWall"
+    "Calculator"
+    "PastelPuzzels"
+    "RunBuddy";
+  }
+
+  #about div,
+  #work div,
+  #contact div {
+    text-align: justify;
+    padding: 5px 5px;
+  }
+
+  #work div {
+    font-size: 15px;
+  }
+
+  .link {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   }
 
   /* Стили для шрифта на средних экранах */
@@ -270,7 +350,6 @@ main {
       font-size: 15px;
       align-items: flex-end;
     }
-
   }
 
   /* Стили для шрифта на больших экранах */
