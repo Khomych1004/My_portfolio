@@ -115,13 +115,7 @@ main {
   padding-bottom: 10px;
 }
 
-#work .text {
-  
-  background-color: var(--inactive-color);
-  
-}
-
-#work .bloks {
+.page-section-work-bloks {
   height: 600px;
   width: 800px;
   display: grid;
@@ -161,6 +155,14 @@ main {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
+.SurfReport:hover,
+.LEDWall:hover,
+.Calculator:hover,
+.PastelPuzzels:hover,
+.RunBuddy:hover {
+  opacity: 0.5;
+}
+
 .SurfReport,
 .LEDWall,
 .Calculator,
@@ -172,13 +174,10 @@ main {
   align-items: end;
 }
 
-.SurfReport div,
-.LEDWall div,
-.Calculator div,
-.PastelPuzzels div,
-.RunBuddy div {
+.page-section-text {
   position: absolute;
   margin-bottom: 10px;
+  background-color: var(--inactive-color);
 }
 
 .bloks {
