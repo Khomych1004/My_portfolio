@@ -98,6 +98,7 @@ main {
   display: flex;
   margin-bottom: 20px;
 }
+
 #about h2,
 #work h2,
 #contact h2 {
@@ -119,6 +120,9 @@ main {
   height: 600px;
   width: 800px;
   display: grid;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  padding-right: 10px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 25% 25%;
   grid-column-gap: 15px;
@@ -127,7 +131,6 @@ main {
   "SurfReport SurfReport"
   "LEDWall Calculator"
   "PastelPuzzels RunBuddy";
-
 }
 
 .SurfReport {
@@ -180,12 +183,6 @@ main {
   background-color: var(--inactive-color);
 }
 
-.bloks {
-  padding-top: 5px;
-  padding-bottom: 35px;
-  padding-right: 10px;
-}
-
 .link {
   width: 100%;
   display: flex;
@@ -202,3 +199,81 @@ main {
   padding: 8px 10px;
   margin-right: 5px;
 }
+
+/* Стили для шрифта на маленьких экранах */
+@media screen and (max-width: 480px) {
+
+  }
+
+  /* Стили для шрифта на средних экранах */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+      text-align: center;
+      padding-bottom: 15px;
+
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 70px;
+    }
+
+    nav {
+      padding-top: 15px;
+      margin: 0;
+    }
+
+    .page-wrapper {
+      margin: 0px 55px;
+    }
+
+    #about,
+    #work,
+    #contact {
+      flex-direction: column;
+    }
+
+    #about h2,
+    #work h2,
+    #contact h2 {
+      max-width:none;
+      min-width:auto;
+      text-align: left;
+      border-right: none;
+      border-bottom: 3px solid var(--h-color);
+      margin-right: 0;
+      padding-right: 0;
+      font-size: 50px;
+    }
+
+    .page-section-work-bloks {
+      height: 800px;
+      width: auto;
+      margin-right: 15px;
+    }
+
+    #about div,
+    #work div,
+    #contact div {
+      text-align: justify;
+      padding: 10px 10px;
+    }
+
+    #work div {
+      font-size: 10px;
+    }
+
+    .link {
+      font-size: 15px;
+      align-items: flex-end;
+    }
+
+  }
+
+  /* Стили для шрифта на больших экранах */
+  @media screen and (min-width: 1025px) {
+
+  }
