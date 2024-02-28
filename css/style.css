@@ -128,18 +128,18 @@ main {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   grid-template-areas:
-  "SurfReport SurfReport"
-  "LEDWall Calculator"
+  "Password-Generator Password-Generator"
+  "Timed-Programming-Quiz Calculator"
   "PastelPuzzels RunBuddy";
 }
 
-.SurfReport {
-  grid-area: SurfReport;
+.Password-Generator {
+  grid-area: Password-Generator;
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
-.LEDWall { 
-  grid-area: LEDWall;
+.Timed-Programming-Quiz { 
+  grid-area: Timed-Programming-Quiz;
   background-image: url("../images/02-portfolio-1.jpg");
 }
 
@@ -158,16 +158,16 @@ main {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-.SurfReport:hover,
-.LEDWall:hover,
+.Password-Generator:hover,
+.Timed-Programming-Quiz:hover,
 .Calculator:hover,
 .PastelPuzzels:hover,
 .RunBuddy:hover {
   opacity: 0.5;
 }
 
-.SurfReport,
-.LEDWall,
+.Password-Generator,
+.Timed-Programming-Quiz,
 .Calculator,
 .PastelPuzzels,
 .RunBuddy {
@@ -259,8 +259,8 @@ main {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-template-areas:
-    "SurfReport"
-    "LEDWall"
+    "Password-Generator"
+    "Timed-Programming-Quiz"
     "Calculator"
     "PastelPuzzels"
     "RunBuddy";
