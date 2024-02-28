@@ -128,28 +128,28 @@ main {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   grid-template-areas:
-  "Password-Generator Password-Generator"
-  "Timed-Programming-Quiz Calculator"
-  "PastelPuzzels RunBuddy";
+  "Password_Generator Password_Generator"
+  "Timed_Programming_Quiz Horiseon_Website"
+  "Team_Profile_Generator RunBuddy";
 }
 
-.Password-Generator {
-  grid-area: Password-Generator;
+.Password_Generator {
+  grid-area: Password_Generator;
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
-.Timed-Programming-Quiz { 
-  grid-area: Timed-Programming-Quiz;
-  background-image: url("../images/02-portfolio-1.jpg");
+.Timed_Programming_Quiz { 
+  grid-area: Timed_Programming_Quiz;
+  background-image: url("../images/02-portfolio-1.gif");
 }
 
-.Calculator { 
-  grid-area: Calculator;
-  background-image: url("../images/02-portfolio-2.jpg");
+.Horiseon_Website { 
+  grid-area: Horiseon_Website;
+  background-image: url("../images/02-portfolio-2.png");
 }
 
-.PastelPuzzels { 
-  grid-area: PastelPuzzels;
+.Team_Profile_Generator { 
+  grid-area: Team_Profile_Generator;
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
@@ -158,18 +158,18 @@ main {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-.Password-Generator:hover,
-.Timed-Programming-Quiz:hover,
-.Calculator:hover,
-.PastelPuzzels:hover,
+.Password_Generator:hover,
+.Timed_Programming_Quiz:hover,
+.Horiseon_Website:hover,
+.Team_Profile_Generator:hover,
 .RunBuddy:hover {
   opacity: 0.5;
 }
 
-.Password-Generator,
-.Timed-Programming-Quiz,
-.Calculator,
-.PastelPuzzels,
+.Password_Generator,
+.Timed_Programming_Quiz,
+.Horiseon_Website,
+.Team_Profile_Generator,
 .RunBuddy {
   background-size: cover;
   border: 3px solid var(--inactive-color);
@@ -259,10 +259,10 @@ main {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-template-areas:
-    "Password-Generator"
-    "Timed-Programming-Quiz"
-    "Calculator"
-    "PastelPuzzels"
+    "Password_Generator"
+    "Timed_Programming_Quiz"
+    "Horiseon_Website"
+    "Team_Profile_Generator"
     "RunBuddy";
   }
 
