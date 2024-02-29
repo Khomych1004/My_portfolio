@@ -217,12 +217,12 @@ main {
   h1 {
     margin: 0;
     padding: 0;
-    font-size: 70px;
+    font-size: 35px;
   }
 
   nav {
-    font-size: 15px;
-    padding-top: 15px;
+    font-size: 13px;
+    padding-top: 8px;
     margin: 0;
   }
 
@@ -252,7 +252,7 @@ main {
   .page-section-work-bloks {
     height: 800px;
     width: auto;
-    margin-right: 15px;
+    margin-right: 0px;
     margin-bottom: 30px;
     grid-template-columns: 100%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -278,7 +278,7 @@ main {
   }
 
   .link {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 }
@@ -292,13 +292,19 @@ main {
     padding-bottom: 15px;
   }
 
+  header a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
   h1 {
     margin: 0;
     padding: 0;
-    font-size: 70px;
+    font-size: 50px;
   }
 
   nav {
+    font-size: 20px;
     padding-top: 15px;
     margin: 0;
   }
