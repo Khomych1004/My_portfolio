@@ -5,7 +5,7 @@
 ![application screenshot](documentation/Demo.png)
 
 ## Description
-this is my portfolio. With this site I wanted to show my abilities in website development, as well as indicate my contacts
+this is my portfolio. With this site, I wanted to show my abilities in website development and adaptation to different screen sizes. also indicate my contacts.
 
 you can go to the site using the link -> [My Portfolio](https://khomych1004.github.io/My_portfolio/)
 
