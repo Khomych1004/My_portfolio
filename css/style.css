@@ -35,8 +35,30 @@ header {
   background-color: rgb(50, 50, 60);
 }
 
-h1 {
+.fullNamePhoto {
   background-color: var(--inactive-color);
+  display: flex;
+  align-items: center;
+}
+
+.foto {
+
+  /*position: absolute;*/
+  border-radius: 100px;
+  height: 100px;
+  
+  padding: 5px 5px 5px 0px;
+  
+  
+  
+
+ /* height: 100px;
+  border-radius: 100px; /* Радиус скругления */
+  /*box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+h1 {
+  
   padding-left: 50px;
   padding-right: 10px;
   margin: 10px 0px;
@@ -214,10 +236,14 @@ main {
     padding-bottom: 15px;
   }
 
+  .fullNamePhoto {
+    justify-content: space-evenly;
+  }
+
   h1 {
     margin: 0;
     padding: 0;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   nav {
@@ -295,6 +321,10 @@ main {
   header a {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .fullNamePhoto {
+    justify-content: space-evenly;
   }
 
   h1 {
